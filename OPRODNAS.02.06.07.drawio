@@ -1,1 +1,1023 @@
-<mxfile host="www.draw.io" modified="2019-12-06T08:53:15.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.3.7" etag="hdxR8_1ujdofwwsD4lcj" type="github" pages="1"><diagram id="awaSU4mFyf3wZ0YpQ1Gy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-06T08:54:10.830Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="lj2q0_IBmivp9tMA8BgU" version="12.3.7" type="github" pages="1">
+  <diagram id="awaSU4mFyf3wZ0YpQ1Gy" name="Page-1">
+    <mxGraphModel dx="786" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="600" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000RE5-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-1">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="280" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000RE1-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-2">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="350" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.02.04.05.01.08" name="Lisensi HSI per 1 Mbps" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-3">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="1680" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPASS.08.02" name="Beban Lisensi" driver="Revenue" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-4">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="825" y="420" width="140" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.01.01.05.01.06" name="Lisensi Free Call" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-5">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="1120" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OBSC.05.02" name="LICENSI COST" driver="SAD" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-6">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1430" y="1015" width="150" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="10005.03.07" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-7">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="490" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000RE3-03.02.42" name="BEBAN KONTRIBUSI USO" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-8">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="40" y="665" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="9111-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-9">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="560" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.03.01.05.01.06" name="Lisensi Sewa Transponder Telkom" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-10">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1715" y="1890" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE1.01.01.05" name="Lisensi SL Per 1 Mbps RE1" driver="BW SL" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-11">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1735" width="220" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.02.05.09" name="Lisensi IPTV" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-12">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1755" y="2030" width="180" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="10005.04.13" name="Beban Hak Penyelenggaraan Frequency" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-13">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="750" y="630" width="290" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.02.04.01.01.01.07" name="Lisensi ASTINET BULANAN" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-14">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1730" y="1540" width="230" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE1.02.02.07" name="Lisensi BULANAN METRO BW PER 1Mbps RE1" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-15">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1680" y="70" width="330" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000RE1-03.02.29" name="Beban Hak Penyelenggaraan Frequency" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-16">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="750" y="700" width="290" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="10005.03.08" name="Beban Konstribusi USO" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-17">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="45" y="735" width="200" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.01.02.01.01.06" name="Lisensi SLJJ" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-18">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="1260" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="10004.03.04" name="Beban Kontribusi USO" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-19">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="50" y="805" width="190" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="8630" name="BEBAN KONTRIBUSI USO" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-20">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="40" y="875" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE4.02.02.07" name="Lisensi BW Per 1 Mbps METRO RE4" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-21">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1710" y="420" width="270" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000RE2-03.02.29" name="Beban Hak Penyelenggaraan Frequency" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-22">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="750" y="770" width="290" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000RE4-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-23">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="840" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000RE2-03.02.35" name="BEBAN KONTRIBUSI USO" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-24">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="40" y="945" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OACTTEL.06.01" name="Licensi Cost" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1140" y="1015" width="190" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000REBor-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-26">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="910" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE6.02.02.07" name="Lisensi BULANAN METRO BW PER 1Mbps RE6" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-27">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1680" y="770" width="330" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="10004.03.04.04" name="Beban Perubahan Kebijakan" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-28">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="410" y="962.5" width="220" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000REKti-03.02.35" name="BEBAN KONTRIBUSI USO" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-29">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="40" y="1015" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="4001-04.24" name="Beban Amortisasi Lisensi BWA" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-30">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="775" y="980" width="240" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.02.03.01.06" name="Lisensi SL per 1 Mbps Nas" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-31">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="2110" y="490" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE2.01.01.05" name="Lisensi SL Per 1 Mbps RE2" driver="BW SL" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-32">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1735" y="140" width="220" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE3.01.01.05" name="Lisensi SL Per 1 Mbps RE3" driver="BW SL" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-33">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1735" y="280" width="220" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000REBor-03.02.35" name="BEBAN KONTRIBUSI USO" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-34">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="40" y="1085" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.01.05.01.01.05" name="Lisensi Lokal Call" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-35">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="1400" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="8101-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-36">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="1050" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="2222-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-37">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="1120" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="10006.01.03.01" name="Beban hak Penyelenggaraan jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-38">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="1190" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="7101-03.02.29" name="Beban Hak Penyelenggaraan Frequency" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-39">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry y="1295" width="290" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="4001-03.02.20" name="HAK PENYELENGGARAAN JASTEL" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-40">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="760" y="1330" width="270" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.02.04.04.01.07" name="Lisensi BULANAN IP Transit" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-41">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1735" y="1610" width="220" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="10004.03.02" name="BHP Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-42">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="50" y="1365" width="190" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="9000-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-43">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="1400" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE2.02.02.07" name="Lisensi BW SEN Per 1 Mbps METRO RE2" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-44">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1700" y="210" width="290" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="10010.03.01.03" name="Beban Kontribusi USO" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-45">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="425" y="892.5" width="190" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000RE2-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-46">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="1470" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE7.02.02.07" name="Lisensi BULANAN METRO BW PER 1Mbps RE7" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-47">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1680" y="910" width="330" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.01.01.01.01.06" name="Lisensi Split Charge" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-48">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="980" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="4001-03.02.21" name="HAK PENYELENGGARAAN FREQUENSI" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-49">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="750" y="1260" width="290" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000RE3-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-50">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="1540" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="10001.03.13" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-51">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="1610" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.03.01.02.01.07" name="Lisensi TV UpLink Telkom" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-52">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="1960" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE4.01.01.05" name="Lisensi SL Per 1Mbps RE4" driver="BW SL" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-53">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="490" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000REKti-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-54">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="765" y="1680" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="7101-03.02.28" name="Beban Hak Penyelenggaraan Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-55">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="390" y="1330" width="260" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.02.04.08.01.08" name="Lisensi VPN IP BULANAN" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-56">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="1750" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE5.01.01.05" name="Lisensi SL Per Mbps RE5" driver="BW SL" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-57">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="560" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000RE4-03.02.35" name="BEBAN KONTRIBUSI USO" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-58">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="40" y="1155" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE7.01.01.05" name="Lisensi SL Per 1 Mbps RE7" driver="BW SL" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-59">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1735" y="840" width="220" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.01.01.03.01.06" name="Lisensi Premium Call" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-60">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="1050" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.02.01.01.06" name="Lisensi Data Center" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-61">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1745" y="1470" width="200" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE3.02.02.07" name="Lisensi BW Per 1 Mbps METRO RE3" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-62">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1710" y="350" width="270" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.01.01.06.01.06" name="Lisensi Uni Call" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-63">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="1190" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE5.02.02.07" name="Lisensi BW SEN BULANAN METRO BW RE5" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-64">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1690" y="630" width="310" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.01.03.01.01.06" name="Lisensi Telkom Signalling" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-65">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="1330" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="10001.03.09" name="Licensing expense" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-66">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="800" y="1750" width="190" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.02.06.07" name="Lisensi" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-67">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="2125" y="560" width="180" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="10010.03.01.02" name="BHP Jastel" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-68">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="425" y="1065" width="190" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODRE6.01.01.05" name="Lisensi SL Per 1 Mbps RE6" driver="BW SL" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-69">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1735" y="700" width="220" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="1000RE5-03.02.35" name="BEBAN KONTRIBUSI USO" driver="EVENLY_ASSIGNED" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-70">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="40" y="1225" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="%shortname%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%name%&lt;/i&gt;&lt;br&gt;&amp;lt;%driver%&amp;gt;" shortname="OPRODNAS.02.04.10.01.09" name="Lisensi WIFI" driver="-" placeholders="1" id="J84W2UaQ9n-eLvcVhzeg-71">
+          <mxCell style="label;iwhiteSpace=wrap;html=1;rounded=1" vertex="1" parent="1">
+            <mxGeometry x="1740" y="1820" width="210" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-72" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-1" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="300"/>
+              <mxPoint x="1128" y="1015.9090909090909"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-73" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-2" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="370"/>
+              <mxPoint x="1126" y="1017.7272727272727"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-74" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-4" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="440"/>
+              <mxPoint x="1124" y="1019.5454545454546"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-75" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1592" y="1015.6666666666666"/>
+              <mxPoint x="1668" y="20"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-76" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1594" y="1017"/>
+              <mxPoint x="1668" y="90"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-77" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1596" y="1018.3333333333334"/>
+              <mxPoint x="1668" y="160"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-78" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1598" y="1019.6666666666667"/>
+              <mxPoint x="1668" y="230"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-79" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="1021.0000000000001"/>
+              <mxPoint x="1668" y="300"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-80" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1602" y="1022.3333333333335"/>
+              <mxPoint x="1668" y="370"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-81" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1604" y="1023.6666666666669"/>
+              <mxPoint x="1668" y="440"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-82" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1606" y="1025.0000000000002"/>
+              <mxPoint x="1668" y="510"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-83" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1608" y="1026.3333333333335"/>
+              <mxPoint x="1668" y="580"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-84" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1610" y="1027.6666666666667"/>
+              <mxPoint x="1668" y="650"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-85" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1612" y="1029"/>
+              <mxPoint x="1668" y="720"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-86" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1614" y="1030.3333333333333"/>
+              <mxPoint x="1668" y="790"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-87" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1616" y="1031.6666666666665"/>
+              <mxPoint x="1668" y="860"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-88" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1618" y="1032.9999999999998"/>
+              <mxPoint x="1668" y="930"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-89" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620" y="1034.333333333333"/>
+              <mxPoint x="1668" y="1000"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-90" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620" y="1035.6666666666663"/>
+              <mxPoint x="1668" y="1070"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-91" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1618" y="1036.9999999999995"/>
+              <mxPoint x="1668" y="1140"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-92" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1616" y="1038.3333333333328"/>
+              <mxPoint x="1668" y="1210"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-93" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1614" y="1039.666666666666"/>
+              <mxPoint x="1668" y="1280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-94" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1612" y="1040.9999999999993"/>
+              <mxPoint x="1668" y="1350"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-95" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1610" y="1042.3333333333326"/>
+              <mxPoint x="1668" y="1420"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-96" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1608" y="1043.6666666666658"/>
+              <mxPoint x="1668" y="1490"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-97" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1606" y="1044.999999999999"/>
+              <mxPoint x="1668" y="1560"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-98" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1604" y="1046.3333333333323"/>
+              <mxPoint x="1668" y="1630"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-99" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1602" y="1047.6666666666656"/>
+              <mxPoint x="1668" y="1700"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-100" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="1048.9999999999989"/>
+              <mxPoint x="1668" y="1770"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-101" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1598" y="1050.3333333333321"/>
+              <mxPoint x="1668" y="1840"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-102" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1596" y="1051.6666666666654"/>
+              <mxPoint x="1668" y="1910"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-103" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1594" y="1052.9999999999986"/>
+              <mxPoint x="1668" y="1980"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-104" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-6" target="J84W2UaQ9n-eLvcVhzeg-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1592" y="1054.333333333332"/>
+              <mxPoint x="1668" y="2050"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-105" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-7" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="510"/>
+              <mxPoint x="1122" y="1021.3636363636365"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-106" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-8" target="J84W2UaQ9n-eLvcVhzeg-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="685"/>
+              <mxPoint x="378" y="894.7222222222222"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-107" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-9" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="580"/>
+              <mxPoint x="1120" y="1023.1818181818184"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-108" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-11" target="J84W2UaQ9n-eLvcVhzeg-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="12.5"/>
+              <mxPoint x="2098" y="492.85714285714283"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-109" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-11" target="J84W2UaQ9n-eLvcVhzeg-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="27.5"/>
+              <mxPoint x="2098" y="562.8571428571429"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-110" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-13" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="650"/>
+              <mxPoint x="1118" y="1025.0000000000002"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-111" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-16" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="720"/>
+              <mxPoint x="1116" y="1026.818181818182"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-112" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-17" target="J84W2UaQ9n-eLvcVhzeg-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="755"/>
+              <mxPoint x="376" y="899.1666666666666"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-113" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-19" target="J84W2UaQ9n-eLvcVhzeg-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="825"/>
+              <mxPoint x="374" y="903.6111111111111"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-114" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-20" target="J84W2UaQ9n-eLvcVhzeg-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="895"/>
+              <mxPoint x="372" y="908.0555555555555"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-115" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-22" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="790"/>
+              <mxPoint x="1114" y="1028.6363636363637"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-116" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-23" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="860"/>
+              <mxPoint x="1112" y="1030.4545454545455"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-117" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-24" target="J84W2UaQ9n-eLvcVhzeg-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="965"/>
+              <mxPoint x="370" y="912.5"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-118" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-25" target="J84W2UaQ9n-eLvcVhzeg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1342" y="1035"/>
+              <mxPoint x="1418" y="1035"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-119" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-26" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="930"/>
+              <mxPoint x="1110" y="1032.2727272727273"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-120" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-28" target="J84W2UaQ9n-eLvcVhzeg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="662" y="982.5"/>
+              <mxPoint x="736" y="440"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-121" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-29" target="J84W2UaQ9n-eLvcVhzeg-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="1035"/>
+              <mxPoint x="372" y="916.9444444444445"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-122" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-30" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1000"/>
+              <mxPoint x="1108" y="1034.090909090909"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-123" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-32" target="J84W2UaQ9n-eLvcVhzeg-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="152.5"/>
+              <mxPoint x="2096" y="498.57142857142856"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-124" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-32" target="J84W2UaQ9n-eLvcVhzeg-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="167.5"/>
+              <mxPoint x="2096" y="568.5714285714286"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-125" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-33" target="J84W2UaQ9n-eLvcVhzeg-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="292.5"/>
+              <mxPoint x="2094" y="504.2857142857143"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-126" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-33" target="J84W2UaQ9n-eLvcVhzeg-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="307.5"/>
+              <mxPoint x="2094" y="574.2857142857142"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-127" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-34" target="J84W2UaQ9n-eLvcVhzeg-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="1105"/>
+              <mxPoint x="374" y="921.3888888888889"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-128" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-36" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1070"/>
+              <mxPoint x="1108" y="1035.9090909090908"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-129" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-37" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1140"/>
+              <mxPoint x="1110" y="1037.7272727272725"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-130" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-38" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1210"/>
+              <mxPoint x="1112" y="1039.5454545454543"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-131" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-39" target="J84W2UaQ9n-eLvcVhzeg-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="1315"/>
+              <mxPoint x="340" y="1035"/>
+              <mxPoint x="700" y="1035"/>
+              <mxPoint x="738" y="1280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-132" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-40" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1350"/>
+              <mxPoint x="1116" y="1043.1818181818178"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-133" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-42" target="J84W2UaQ9n-eLvcVhzeg-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="1385"/>
+              <mxPoint x="378" y="1085"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-134" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-43" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1420"/>
+              <mxPoint x="1118" y="1044.9999999999995"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-135" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-45" target="J84W2UaQ9n-eLvcVhzeg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="662" y="912.5"/>
+              <mxPoint x="738" y="430"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-136" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-46" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1490"/>
+              <mxPoint x="1120" y="1046.8181818181813"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-137" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-49" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1280"/>
+              <mxPoint x="1114" y="1041.363636363636"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-138" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-50" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1560"/>
+              <mxPoint x="1122" y="1048.636363636363"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-139" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-51" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1630"/>
+              <mxPoint x="1124" y="1050.4545454545448"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-140" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-53" target="J84W2UaQ9n-eLvcVhzeg-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="502.5"/>
+              <mxPoint x="2092" y="510"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-141" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-53" target="J84W2UaQ9n-eLvcVhzeg-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="517.5"/>
+              <mxPoint x="2092" y="579.9999999999999"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-142" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-54" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1700"/>
+              <mxPoint x="1126" y="1052.2727272727266"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-143" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-55" target="J84W2UaQ9n-eLvcVhzeg-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="662" y="1350"/>
+              <mxPoint x="738" y="1350"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-144" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-57" target="J84W2UaQ9n-eLvcVhzeg-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="572.5"/>
+              <mxPoint x="2094" y="515.7142857142857"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-145" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-57" target="J84W2UaQ9n-eLvcVhzeg-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="587.5"/>
+              <mxPoint x="2094" y="585.7142857142856"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-146" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-58" target="J84W2UaQ9n-eLvcVhzeg-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="1175"/>
+              <mxPoint x="376" y="925.8333333333334"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-147" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-59" target="J84W2UaQ9n-eLvcVhzeg-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="852.5"/>
+              <mxPoint x="2098" y="527.142857142857"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-148" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-59" target="J84W2UaQ9n-eLvcVhzeg-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="867.5"/>
+              <mxPoint x="2098" y="597.1428571428569"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-149" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-66" target="J84W2UaQ9n-eLvcVhzeg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1052" y="1770"/>
+              <mxPoint x="1128" y="1054.0909090909083"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-150" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-68" target="J84W2UaQ9n-eLvcVhzeg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="662" y="1085"/>
+              <mxPoint x="738" y="450"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-151" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-69" target="J84W2UaQ9n-eLvcVhzeg-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="712.5"/>
+              <mxPoint x="2096" y="521.4285714285713"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-152" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-69" target="J84W2UaQ9n-eLvcVhzeg-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2022" y="727.5"/>
+              <mxPoint x="2096" y="591.4285714285712"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J84W2UaQ9n-eLvcVhzeg-153" value="allocation" style="curved=1;endArrow=blockThin;endFill=1;fontSize=11;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="J84W2UaQ9n-eLvcVhzeg-70" target="J84W2UaQ9n-eLvcVhzeg-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="1245"/>
+              <mxPoint x="378" y="930.2777777777778"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
