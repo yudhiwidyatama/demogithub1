@@ -57,7 +57,7 @@ class Main {
                     "## Node label with placeholders and HTML.\n" +
                     "## Default is '%name_of_first_column%'.\n" +
                     "#\n" +
-                    "# label: %shortname%<br><i style=\"color:gray;\">%name%</i><br>&lt;%driver%&gt;\n" +
+                    "# label: %shortname%<br><i style=\"color:gray;\">%name%</i><br>%driver%\n" +
                     "#\n" +
                     "## Node style (placeholders are replaced once).\n" +
                     "## Default is the current style for nodes.\n" +
@@ -114,6 +114,8 @@ class Main {
                     "#\n" +
                     "# connect: {\"from\": \"allocto\", \"to\": \"shortname\", \"invert\": false, \"label\": \"allocation\", \\\n" +
                     "#          \"style\": \"curved=1;endArrow=blockThin;endFill=1;fontSize=11;\"}\n" +
+                    "# connect: {\"from\": \"parent\", \"to\": \"shortname\", \"invert\": false, \"label\": \"child of\", \\\n" +
+                    "#          \"style\": \"curved=1;endArrow=blockThin;endFill=1;fontSize=11;\"}\n" +
                     "#\n" +
                     "## Node x-coordinate. Possible value is a column name. Default is empty. Layouts will\n" +
                     "## override this value.\n" +
@@ -168,7 +170,7 @@ class Main {
                     "#\n" +
                     "## ---- CSV below this line. First line are column names. ----\n"
                     );
-            o.write("shortname,name,allocto,driver\n");
+            o.write("shortname,name,allocto,driver,parent\n");
             HashSet<Allocation> allocs = new HashSet<>();
             allocs.addAll(allocations);
             for (Node n: nodes)
@@ -189,11 +191,27 @@ class Main {
                         }
                         sb.append("\"");
                         sb.append(",");
+                        sb.append("&lt;");
                         sb.append(n.outgoingAlloc.driver);
-                    } else sb.append(",-");
+                        sb.append("&gt;");
+                        sb.append(",");
+                    } else sb.append(",-,");
 
                 o.write(sb.toString());
                 o.write("\n");
+                for (Node childNode : n.childSet)
+                {
+                    StringBuilder sb1 = new StringBuilder();
+                    sb1.append(childNode.id.replaceAll(",","."));
+                    sb1.append( ",");
+                    sb1.append(childNode.longName.replaceAll(",","."));
+                    sb1.append( ",,");
+                    sb1.append( "CostElement,");
+                    sb1.append(n.id.replaceAll(",","."));
+                    o.write(sb1.toString());
+                    o.write("\n");
+
+                }
             }
 
             o.close();
@@ -220,7 +238,7 @@ class Main {
                         "              <y:Fill color=\"#CCCCFF\"  transparent=\"false\"/>\n" +
                         "              <y:BorderStyle type=\"line\" width=\"1.0\" color=\"#000000\"/>\n" +
                         "              <y:NodeLabel visible=\"true\" alignment=\"center\" fontFamily=\"Dialog\" fontSize=\"12\" fontStyle=\"plain\" textColor=\"#000000\" modelName=\"internal\" modelPosition=\"c\" autoSizePolicy=\"center\">" +
-                        encodeXML(n.longName) +
+                        encodeXML(n.id) + "\n" + encodeXML(n.longName) +
                         "</y:NodeLabel>\n" +
                         "              <y:Shape type=\"roundrectangle\"/>\n" +
                         "            </y:ShapeNode>\n" +
@@ -280,13 +298,22 @@ class Main {
                     '}';
         }
     }
-    public static class Node {
+    public static class Node implements Comparable {
         String id;
         String longName;
         String type;
         ArrayList<Allocation> incomingAlloc = new ArrayList<Allocation>();
         Set<Object> requiredObjects = null;
+        List<Object> requiredList = new ArrayList<>();
+        Set<Node> childSet = new TreeSet<>();
         Allocation outgoingAlloc;
+        Node parent;
+        public void setParent(Node p)
+        {
+            if (p==null) return;
+            parent = p;
+            p.childSet.add(this);
+        }
         public boolean isSource() {
             return incomingAlloc.size()==0;
         }
@@ -299,14 +326,37 @@ class Main {
             this.type = type;
         }
 
-        @Override
-        public String toString() {
-            if (isSource())
-                return "Node{Source," +
+        public String toStringFull() {
+            if (isSource()) {
+                StringBuilder s= new StringBuilder("Node{Source," +
                         "id='" + id + '\'' +
                         ", longName='" + longName + '\'' +
                         ", type='" + type + '\'' +
-                        '}';
+                        '}');
+                if (this.childSet.size()>0)
+                {
+                    for (Node ch : childSet)
+                        s.append("\n  "+ch.toString());
+                }
+                return s.toString();
+            }
+            return "Node{" +
+                    "id='" + id + '\'' +
+                    ", longName='" + longName + '\'' +
+                    ", type='" + type + '\'' +
+                    '}';
+        }
+        @Override
+        public String toString() {
+            if (isSource()) {
+                StringBuilder s= new StringBuilder("Node{Source," +
+                        "id='" + id + '\'' +
+                        ", longName='" + longName + '\'' +
+                        ", type='" + type + '\'' +
+                        '}');
+
+                return s.toString();
+            }
             return "Node{" +
                     "id='" + id + '\'' +
                     ", longName='" + longName + '\'' +
@@ -319,20 +369,29 @@ class Main {
             if (requiredObjects != null) return;
             requiredObjects = new HashSet<>();
             requiredObjects.add(this);
+            requiredList.add(this);
             for (Allocation alloc: incomingAlloc)
             {
-                requiredObjects.add(alloc);
-                requiredObjects.add(alloc.from);
+                if (requiredObjects.add(alloc))
+                    requiredList.add(alloc);
+
+                if (requiredObjects.add(alloc.from)) requiredList.add(alloc.from);
                 for (Node nodeTo  : alloc.toNodes)
                 {
-                    requiredObjects.add(nodeTo);
+                    if (requiredObjects.add(nodeTo)) requiredList.add(nodeTo);
                 }
                 alloc.from.fillRequirement();
-                requiredObjects.addAll(alloc.from.requiredObjects);
+                for (Object obj : alloc.from.requiredList)
+                    if (requiredObjects.add(obj)) requiredList.add(obj);
             }
 
         }
 
+        @Override
+        public int compareTo(Object o) {
+            Node other = (Node)o;
+            return this.id.compareTo(other.id);
+        }
     }
     HashMap<String,Node> nodeList = new HashMap<String,Node>();
     public void createNodeIfNotExists(String id, String name, String type) {
@@ -342,149 +401,129 @@ class Main {
     public static void main(String[] args)
     {
         Main m = new Main();
+
 	try
     {
-	Scanner s = new Scanner(new FileReader(new File(args[1])));
-	String nottabS = "[^\\t]+";
-	String delimitS = "\\t|\\r?\\n|\\n";
-	String delimitS2 = "[\\t]";
-	s.useDelimiter(delimitS);
-	Pattern nottab = Pattern.compile(nottabS);
-	String prefixStr = "";
-	for (int prefix=1; prefix<=5; prefix++) prefixStr = s.next();
-	System.out.println("File Type = "+prefixStr);
-	if (prefixStr.equals("STRUCTURES_BY_LEVEL"))
-	{
-		s.useDelimiter(delimitS);
-		while (s.hasNext())
-		{
-			String field1 = s.next();
-			if (field1.length()==0) break;
-			System.out.print(field1);
-			System.out.print("\t");
-			s.useDelimiter(delimitS2);
-			String fieldLvl = s.next();
-			System.out.print(fieldLvl);
-			System.out.print("\t");
-			String fieldx = s.next();
-            String fieldxc = fieldx.replaceAll("\\s+"," ");
-			//String fieldxc = fieldx.replaceAll("\\t|\\r?\\n|\\n"," ");
-			System.out.print(fieldxc);
-			System.out.print("\t");
-			s.useDelimiter(delimitS);
-			String fieldlas = s.next();
-			System.out.print(fieldlas);
-			System.out.print("\n");
-		}
-	} else if (prefixStr.equals("SOURCE_DESTINATION_ASSIGNMENTS"))
-	{
-		s.useDelimiter(delimitS);
-        Node srcNode = null;
-        Allocation currentAlloc = null;
-		while (s.hasNext())
-		{
-			String field1 = s.next();
-			if (field1.equals("NEW_ASSIGNMENT"))
-			{
-				System.out.println(field1);
-				String fieldSrcId = s.next();
-				System.out.print(fieldSrcId);
-				System.out.print("\t");
-				s.useDelimiter(delimitS2);
+        for (int fileIdx=1; fileIdx<args.length; fileIdx++) {
+            Scanner s = new Scanner(new FileReader(new File(args[fileIdx])));
+            String nottabS = "[^\\t]+";
+            String delimitS = "\\t|\\r?\\n|\\n";
+            String delimitS2 = "[\\t]";
+            s.useDelimiter(delimitS);
+            Pattern nottab = Pattern.compile(nottabS);
+            String prefixStr = "";
+            String headerStr[] = new String[6];
+            ArrayList<Node> nodePath =  new ArrayList<>();
+            String defaultType = "";
+            for (int prefix = 1; prefix <= 5; prefix++) headerStr[prefix] = s.next();
+            defaultType = headerStr[4];
+            prefixStr = headerStr[5];
+            System.out.println("File Type = " + prefixStr);
+            if (prefixStr.equals("STRUCTURES_BY_LEVEL")) {
+                s.useDelimiter(delimitS);
+                while (s.hasNext()) {
+                    String fieldId = s.next();
+                    if (fieldId.length() == 0) break;
+                    System.out.print(fieldId);
+                    System.out.print("\t");
+                    s.useDelimiter(delimitS2);
+                    String fieldLvl = s.next();
+                    System.out.print(fieldLvl);
+                    int level = Integer.parseInt(fieldLvl);
 
-				String fieldSrcName = s.next();
-				String fieldSrcNameC = fieldSrcName.replaceAll("\\s+"," ");
-                //String fieldSrcNameC = fieldSrcName.replaceAll("\\t|\\r?\\n|\\n"," ");
-				System.out.print(fieldSrcNameC);
-				System.out.print("\t");
-				s.useDelimiter(delimitS);
-				String fieldType = s.next();
-				System.out.print(fieldType);
-				System.out.print("\t");
-				String fieldDriver = s.next();
-                m.createNodeIfNotExists(fieldSrcId,fieldSrcNameC, fieldType);
-                srcNode = m.nodeList.get(fieldSrcId);
-                currentAlloc = new Allocation();
-                currentAlloc.from = srcNode;
-                if (srcNode.outgoingAlloc !=null) System.err.println("Node: "+srcNode.id +
-                        " : doubly allocated (prev driver is : " + srcNode.outgoingAlloc.driver() +")");
-                srcNode.outgoingAlloc = currentAlloc;
-                currentAlloc.driver = fieldDriver;
-				if (fieldDriver.equals("EVENLY_ASSIGNED") ||fieldDriver.equals("PERCENTAGES"))
-				{
-				System.out.print(fieldDriver);
-				System.out.print("\n");
-				} else
-				{
+                    System.out.print("\t");
+                    String fieldx = s.next();
+                    String fieldDesc = fieldx.replaceAll("\\s+", " ");
+                    //String fieldxc = fieldx.replaceAll("\\t|\\r?\\n|\\n"," ");
+                    System.out.print(fieldDesc);
+                    System.out.print("\t");
 
-				for (int i=0;i<2;i++) {
-					String fieldx = s.next();
-					String fieldxc = fieldx.replaceAll("\\s+"," ");
-					System.out.print(fieldxc);
-					System.out.print("\t");
-				}
-				s.useDelimiter(delimitS);
-				String fieldlas = s.next();
-				System.out.print(fieldlas);
-				System.out.print("\n");
-				}
-			}
-			else {
-				System.out.print(field1);
-				System.out.print("\t");
-				s.useDelimiter(delimitS2);
-				String fieldx = s.next();
-				String fieldxc = fieldx.replaceAll("\\s+"," ");
-				System.out.print(fieldxc);
-                System.out.print("\t");
-				s.useDelimiter(delimitS);
-				String fieldlas = s.next();
-				System.out.print(fieldlas);
-				System.out.print("\n");
-                m.createNodeIfNotExists(field1,fieldxc,fieldlas);
-                Node destNode = m.nodeList.get(field1);
-                currentAlloc.toNodes.add(destNode);
-                destNode.incomingAlloc.add(currentAlloc);
+                    s.useDelimiter(delimitS);
+                    String fieldlas = s.next();
+                    System.out.print(fieldlas);
+                    System.out.print("\n");
+                    if (fieldlas.equals("E")) {
+                        fieldId = fieldId + "/E";
+                        level = level+1;
+                    }
+                    if (fieldlas.equals("C")) {
+                        fieldId = fieldId + "/C";
+                    }
+                    m.createNodeIfNotExists(fieldId,fieldDesc,defaultType);
+                    Node theNode = m.nodeList.get(fieldId);
+                    while (nodePath.size()<(level+1))  nodePath.add(null);
+                    nodePath.set(level,theNode);
+                    Node parentNode = nodePath.get(level-1);
+                    theNode.setParent(parentNode);
+                }
+            } else if (prefixStr.equals("SOURCE_DESTINATION_ASSIGNMENTS")) {
+                s.useDelimiter(delimitS);
+                Node srcNode = null;
+                Allocation currentAlloc = null;
+                while (s.hasNext()) {
+                    String field1 = s.next();
+                    if (field1.equals("NEW_ASSIGNMENT")) {
+                        System.out.println(field1);
+                        String fieldSrcId = s.next();
+                        System.out.print(fieldSrcId);
+                        System.out.print("\t");
+                        s.useDelimiter(delimitS2);
 
-            }
+                        String fieldSrcName = s.next();
+                        String fieldSrcNameC = fieldSrcName.replaceAll("\\s+", " ");
+                        //String fieldSrcNameC = fieldSrcName.replaceAll("\\t|\\r?\\n|\\n"," ");
+                        System.out.print(fieldSrcNameC);
+                        System.out.print("\t");
+                        s.useDelimiter(delimitS);
+                        String fieldType = s.next();
+                        System.out.print(fieldType);
+                        System.out.print("\t");
+                        String fieldDriver = s.next();
+                        m.createNodeIfNotExists(fieldSrcId, fieldSrcNameC, fieldType);
+                        srcNode = m.nodeList.get(fieldSrcId);
+                        currentAlloc = new Allocation();
+                        currentAlloc.from = srcNode;
+                        if (srcNode.outgoingAlloc != null) System.err.println("Node: " + srcNode.id +
+                                " : doubly allocated (prev driver is : " + srcNode.outgoingAlloc.driver() + ")");
+                        srcNode.outgoingAlloc = currentAlloc;
+                        currentAlloc.driver = fieldDriver;
+                        if (fieldDriver.equals("EVENLY_ASSIGNED") || fieldDriver.equals("PERCENTAGES")) {
+                            System.out.print(fieldDriver);
+                            System.out.print("\n");
+                        } else {
 
-		}
-		ArrayList<Node> sinkList,sourceList;
-		sinkList=new ArrayList<Node>();
-        sourceList=new ArrayList<Node>();
-		for (Node n: m.nodeList.values())
-        {
-            if (n.isSink()) {
-                sinkList.add(n);
-            }
-            if (n.isSource()) {
-                sourceList.add(n);
-            }
-        }
-        Node minNode = null;
-		int minRequired = 1000000;
-        for (Node n: sinkList)
-        {
-            n.fillRequirement();
-            if (!n.type.equals("COST_OBJECT")) continue;
-            System.out.println("node " + n.id + " : " + n.requiredObjects.size()+ " objects required ");
-            if (n.requiredObjects.size()< minRequired)
-            {
-                minRequired = n.requiredObjects.size(); minNode = n;
-            }
-        }
-        System.out.println("minimum node " + minNode.id + " : " + minNode.requiredObjects.size()+ " objects required ");
-        for (Object o : minNode.requiredObjects)
-        {
-            if (o instanceof Allocation)
-            {
-                Allocation oAlloc = (Allocation)o;
-                System.out.println(oAlloc.toString());
-            }
-            if (o instanceof Node)
-            {
-                Node oNode = (Node)o;
-                System.out.println(oNode.toString());
+                            for (int i = 0; i < 2; i++) {
+                                String fieldx = s.next();
+                                String fieldxc = fieldx.replaceAll("\\s+", " ");
+                                System.out.print(fieldxc);
+                                System.out.print("\t");
+                            }
+                            s.useDelimiter(delimitS);
+                            String fieldlas = s.next();
+                            System.out.print(fieldlas);
+                            System.out.print("\n");
+                        }
+                    } else {
+                        System.out.print(field1);
+                        System.out.print("\t");
+                        s.useDelimiter(delimitS2);
+                        String fieldx = s.next();
+                        String fieldxc = fieldx.replaceAll("\\s+", " ");
+                        System.out.print(fieldxc);
+                        System.out.print("\t");
+                        s.useDelimiter(delimitS);
+                        String fieldlas = s.next();
+                        System.out.print(fieldlas);
+                        System.out.print("\n");
+                        m.createNodeIfNotExists(field1, fieldxc, fieldlas);
+                        Node destNode = m.nodeList.get(field1);
+                        currentAlloc.toNodes.add(destNode);
+                        destNode.incomingAlloc.add(currentAlloc);
+
+                    }
+
+                }
+
             }
         }
         /*
@@ -496,41 +535,56 @@ class Main {
             System.out.println(n.toString());
         }
         */
-        System.out.println("Please input node id to print :");
-        java.util.Scanner scanner = new Scanner(System.in);
-        String theNodeId = scanner.next();
-        Node theNode = m.nodeList.get(theNodeId);
-        ArrayList<Allocation> selAlloc = new ArrayList<>();
-        ArrayList<Node> selNodes = new ArrayList<>();
+                ArrayList<Node> sinkList, sourceList;
+                sinkList = new ArrayList<Node>();
+                sourceList = new ArrayList<Node>();
+                for (Node n : m.nodeList.values()) {
+                    if (n.isSink()) {
+                        sinkList.add(n);
+                    }
+                    if (n.isSource()) {
+                        sourceList.add(n);
+                    }
+                }
+                for (Node n: sinkList)
+                {
+                    n.fillRequirement();
+                    if (n.requiredList.size()>1)
+                    System.out.println("node " + n.id + " : " + n.requiredList.size()+ " objects required ");
+                }
+                System.out.println("Please input node id to print :");
+                java.util.Scanner scanner = new Scanner(System.in);
+                String theNodeId = scanner.next();
+                Node theNode = m.nodeList.get(theNodeId);
+                ArrayList<Allocation> selAlloc = new ArrayList<>();
+                ArrayList<Node> selNodes = new ArrayList<>();
 
-        for (Object o : theNode.requiredObjects)
-        {
-            if (o instanceof Allocation)
-            {
-                Allocation oAlloc = (Allocation)o;
-                selAlloc.add(oAlloc);
+                for (Object o : theNode.requiredList) {
+                    if (o instanceof Allocation) {
+                        Allocation oAlloc = (Allocation) o;
+                        selAlloc.add(oAlloc);
 
-                System.out.println(oAlloc.toString());
-            }
-            if (o instanceof Node)
-            {
-                Node oNode = (Node)o;
-                selNodes.add(oNode);
+                        System.out.println(oAlloc.toString());
+                    }
+                    if (o instanceof Node) {
+                        Node oNode = (Node) o;
+                        selNodes.add(oNode);
 
-                System.out.println(oNode.toString());
-            }
-        }
-        File graphFile = new File("drawio.csv");
-        FileOutputStream fileOutputStream = new FileOutputStream(graphFile);
-        Graphml.WriteCsv(selNodes,selAlloc,fileOutputStream);
-        fileOutputStream.close();
-        File graphFile2 = new File("yed.graphml");
-        FileOutputStream fileOutputStream2 = new FileOutputStream(graphFile2);
-        Graphml.Write(selNodes,selAlloc,fileOutputStream2);
-        fileOutputStream2.close();
+                        System.out.println(oNode.toStringFull());
+                    }
+                }
+
+                File graphFile = new File("drawio.csv");
+                FileOutputStream fileOutputStream = new FileOutputStream(graphFile);
+                Graphml.WriteCsv(selNodes, selAlloc, fileOutputStream);
+                fileOutputStream.close();
+                File graphFile2 = new File("yed.graphml");
+                FileOutputStream fileOutputStream2 = new FileOutputStream(graphFile2);
+                Graphml.Write(selNodes, selAlloc, fileOutputStream2);
+                fileOutputStream2.close();
 
 
-    }
+
 
 	} catch (IOException x) {
 	x.printStackTrace();
